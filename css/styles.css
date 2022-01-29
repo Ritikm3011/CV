@@ -1,9 +1,9 @@
 body {
-    background-color: #bafafb;
+    background-color: #9cfdff40;
 }
 
 hr {
-    background-color: #bafafb;
+    background-color: #9cfdff80;
     border-style: dotted none none none;
     /* height: 2px; */
     width: 5%;
@@ -23,4 +23,24 @@ h3 {
 
 p {
     font-family: cursive;
+}
+h5:hover {
+    color: red;
+    size: 15px;
+}
+
+/* ****************** id ******************** */
+
+#name:hover {
+    color: #072227;
+    
+
+}
+
+.left{
+    text-align: left;
+}
+.centre{
+    text-align: center;
+    font-weight: bold;
 }
